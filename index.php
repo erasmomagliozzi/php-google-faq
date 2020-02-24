@@ -42,16 +42,35 @@ Learn more about how we keep your personal information private and safe — and 
      <meta charset="utf-8">
      <title></title>
      <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700&display=swap" rel="stylesheet">
+
    </head>
 
    <header>
+     <div class="top_header">
+       <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt="">
+       <h1 id="title">Privacy & Terms</h1>
+     </div>
+     <div class="down_header">
+       <ul class="list">
+         <li>Overview</li>
+         <li>Privacy Police</li>
+         <li>Terms of Service</li>
+         <li>Technologies</li>
+         <li>FAQ</li>
+       </ul>
+       <p>Google Account</p>
+     </div>
 
    </header>
    <body>
-     <?php foreach ($db as $domanda){?>
-       <?php echo $domanda['domanda']?> <br>
-       <?php echo $domanda['risposta']?> <br>
-     <?php }?>
+     <div class="container">
+       <?php foreach ($db as $domanda){?>
+        <h2 id="domanda"><?php echo $domanda['domanda']?> <br></h2>
+        <p id="risposta"><?php echo $domanda['risposta']?> <br></p>
+       <?php }?>
+
+     </div>
 
    </body>
  </html>
