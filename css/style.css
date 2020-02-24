@@ -59,3 +59,7 @@ header{
   font-size: 15px;
   margin-bottom: 20px;
 }
+#faq{
+  color: blue;
+  border-bottom: 1px solid blue;
+}

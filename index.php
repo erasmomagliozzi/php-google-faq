@@ -16,11 +16,11 @@
     'domanda' => 'How does Google protect my privacy and keep my information secure?',
     'risposta' => "We know security and privacy are important to you – and they are important to us, too. We make it a priority to provide strong security and give you confidence that your information is safe and accessible when you need it.
 
-We’re constantly working to ensure strong security, protect your privacy, and make Google even more effective and efficient for you. We spend hundreds of millions of dollars every year on security, and employ world-renowned experts in data security to keep your information safe. We also built easy-to-use privacy and security tools like Google Dashboard, 2-step verification and Ads Settings. So when it comes to the information you share with Google, you’re in control.
+    We’re constantly working to ensure strong security, protect your privacy, and make Google even more effective and efficient for you. We spend hundreds of millions of dollars every year on security, and employ world-renowned experts in data security to keep your information safe. We also built easy-to-use privacy and security tools like Google Dashboard, 2-step verification and Ads Settings. So when it comes to the information you share with Google, you’re in control.
 
-You can learn more about safety and security online, including how to protect yourself and your family online, at the Google Safety Center.
+    You can learn more about safety and security online, including how to protect yourself and your family online, at the Google Safety Center.
 
-Learn more about how we keep your personal information private and safe — and put you in control."
+    Learn more about how we keep your personal information private and safe — and put you in control."
   ],
   [
     'domanda' => "How can I remove information about myself from Google's search results?",
@@ -57,7 +57,7 @@ Learn more about how we keep your personal information private and safe — and 
          <li>Privacy Police</li>
          <li>Terms of Service</li>
          <li>Technologies</li>
-         <li>FAQ</li>
+         <li id="faq">FAQ</li>
        </ul>
        <p>Google Account</p>
      </div>
